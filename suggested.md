@@ -22,15 +22,19 @@ Over the years, I have run across countless mathematical ideas which I struggled
 
 **Analysis I by Terence Tao**
 
-<img align="right" width="120" height="190" "/assets/analysis.png">
+<img align="right" width="120" height="190" src = "/assets/analysis.png">
 
-This is a wonderful book for gaining both an intuitive and technical undestanding of single-
-variable real  analysis, that was written by a prolific mathematician to boot. I used
-this book to supplement a course in undergraduate real analysis and found the non-standard
-concepts introduced such as "$$\epsilon$$ - closeness" and $$\epsilon$$ - steadiness" to be
-extremely clever and useful for understanding sequences.
-The book is fairly slow-paced since it begins by constructing the basic arithmetic operations and
-the natural numbers, but the payoff for reading these sections is great once later chapters are reached. Overall, this is a fantastic book which will cultivate a deep understanding of analysis.
+This is a wonderful book for gaining both an intuitive and technical
+undestanding of single- variable real  analysis, that was written by a
+prolific mathematician to boot. I used this book to supplement a course
+in undergraduate real analysis and found the non-standard concepts
+introduced such as "$$\epsilon$$ - closeness" and $$\epsilon$$ -
+steadiness" to be extremely clever and useful for understanding sequences.
+The book is fairly slow-paced since it begins by constructing the
+basic arithmetic operations and the natural numbers, but the payoff
+for reading these sections is great once later chapters are reached.
+Overall, this is a fantastic book which will help to cultivate a deep
+understanding of analysis.
 
 
 ## Algebra
