@@ -1,8 +1,20 @@
 ---
 layout: page
 title: Books
-permalink: /Book Reviews/
+permalink: /Books/
 ---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
 
 Over the years, I have run across countless mathematical ideas which I struggled to understand. Usually, a good way to remedy this is through finding a more suitable exposition on the topic in a book. Every book has its own style of presentation though, and some may not contain what you are looking for. Here I will describe some of the books which I have read/browsed through and give a short review to hopefully help others to decide whether or not they should choose a particular book to learn a topic.
 
