@@ -22,7 +22,7 @@ Over the years, I have run across countless mathematical ideas which I struggled
 
 **Analysis I by Terence Tao**
 
-![analysis](/assets/analysis.png){: height="220px" width="150px"}
+![analysis](/assets/analysis.png){: height="220px" width="150px" align="right"}
 
 This is a wonderful book for gaining both an intuitive and technical
 undestanding of single- variable real  analysis, that was written by a
