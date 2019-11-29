@@ -22,7 +22,7 @@ Over the years, I have run across countless mathematical ideas which I struggled
 
 **Analysis I by Terence Tao**
 
-<img align="right" width="120" height="190" src = "/assets/analysis.png">
+![analysis](/assets/analysis.png){: height="220px" width="150px"}
 
 This is a wonderful book for gaining both an intuitive and technical
 undestanding of single- variable real  analysis, that was written by a
@@ -41,7 +41,7 @@ understanding of analysis.
 
 **Abstract Algebra: An Introduction by Thomas Hungerford**
 
-This is a fairly good book on the fundamentals of abstract algebra and very basic number theory, beginning with ring theory then moving onto groups (many books introduce groups first). The pace is rather slow and comfortable, and there are a lot of examples; many of them very simple used for clarifying concepts. The book is also unique in that it gives an introduction to cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite well. Overall the book is a solid, yet fairly elementary introduction to abstract algebra.
+This is a fairly good book on the fundamentals of abstract algebra and very basic number theory, beginning with ring theory then moving onto groups (many books introduce groups first). The pace is rather slow and comfortable, and there are a lot of examples; many of them very simple used for clarifying concepts. The book is also unique in that it gives an introduction to cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite well. Overall the book is a fairly elementary, yet solid introduction to abstract algebra.
 
 ## Applied Math
 
@@ -50,7 +50,11 @@ This is a fairly good book on the fundamentals of abstract algebra and very basi
 This book is a set of lecture notes from the Courant Institute which are quite good as
 an introduction to the fundamental theorems and concepts in fluid mechanics, but are very
 thin on details for the derivations (as are most lecture notes). I would recommend this
-as a reference to someone wanting to know theorems and applications of ideas such as the
-basic conservation laws, Kelvin and Helmholtz's theorems, and some basic gas dynamics.
+as a reference to someone wanting to know the most important theorems and applications of
+ideas such as the basic conservation laws, Kelvin and Helmholtz's theorems, and some basic gas dynamics.
 Although it is not stated explicitly, I would recommend knowing some of the basics about
 PDEs before studying the later chapters on gas dynamics and sound.
+
+## Other
+
+**What is Mathematics? by Richard Courant**
