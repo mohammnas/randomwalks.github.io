@@ -11,3 +11,6 @@ some of the ideas I learn in books, class, talks, etc. so that I can better unde
 hopefully help others to as well.
 
 In my spare time I care for my many plants and I play guitar.
+
+
+![A bug](/assets/bug.jpeg)
