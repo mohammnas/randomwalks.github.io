@@ -44,12 +44,13 @@ understanding of analysis.
 
 This is a fairly good book on the fundamentals of abstract algebra and very <br />
 basic number theory, beginning with ring theory then moving onto groups  <br />
-(many books introduce groups first). The pace is rather slow and comfortable,
-and there are a lot of examples; many of them very simple used for clarifying
+(many books introduce groups first). The pace is a bit slow, but nevertheless comfortable,
+and there are a lot of examples; many of them very simple and used just for clarifying
 concepts. The book is also unique in that it gives an introduction to <br />
 cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite <br />  well.
 Overall the book is a fairly elementary, yet solid introduction to abstract
-algebra.
+algebra. For someone looking towards graduate studies in algebra however, I would instead recommend
+Artin's *Algebra*.
 
 
 ## Applied Math
