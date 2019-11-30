@@ -18,7 +18,7 @@ MathJax.Hub.Config({
 Here is some Python code which computes the integral $$\int_{-1}^{1} x^{8} + 42x^{7} dx$$ using
 Gaussian quadrature. The value for the fifth Legendre polynomial was simply from [Wikipedia](https://en.wikipedia.org/wiki/Legendre_polynomials), although it could be easily computed using Graham-Schmidt orthogonalization (I don't have enough time on my hands to write it all out!)
 
-We import the library Numpy and the "linalg" sub-package from the Scipy library, the latter of which
+We import the library Numpy and the "linalg" sub-package from the Scipy library; the latter of which
 is very useful for solving linear systems.
 
 ```python
