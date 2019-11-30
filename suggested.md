@@ -25,7 +25,7 @@ Over the years, I have run across countless mathematical ideas which I struggled
 ![analysis](/assets/analysis.png){: height="220px" width="150px" align="right"}
 
 This is a wonderful book for gaining both an intuitive and technical
-undestanding of single- variable real  analysis, that was written by a
+undestanding of single - variable real  analysis, and it was written by a
 prolific mathematician to boot. I used this book to supplement a course
 in undergraduate real analysis and found the non-standard concepts
 introduced such as "$$\epsilon$$ - closeness" and $$\epsilon$$ -
