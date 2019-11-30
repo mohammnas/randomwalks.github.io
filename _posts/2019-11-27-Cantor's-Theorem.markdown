@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cantor's Theorem"
+title:  "Cantor's theorem"
 ---
 
 <script type="text/x-mathjax-config">
@@ -12,6 +12,8 @@ MathJax.Hub.Config({
 });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+My first post! This will be a simple and short exposition; hopefully future posts will be longer.
 
 Here is a theorem I learned in my course on real analysis which is an extraordinary result that has an equally extraordinary proof. I remember my professor telling our class that this proof would make our heads spin, but I believe there is just unfortunate notation which makes it confusing at a first glance. I will also talk about some implications of this theorem.
 

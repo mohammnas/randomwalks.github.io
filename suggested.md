@@ -21,7 +21,6 @@ Over the years, I have run across countless mathematical ideas which I struggled
 ## Analysis
 
 **Analysis I by Terence Tao**
-
 ![analysis](/assets/analysis.png){: height="220px" width="150px" align="right"}
 
 This is a wonderful book for gaining both an intuitive and technical
@@ -40,20 +39,40 @@ understanding of analysis.
 ## Algebra
 
 **Abstract Algebra: An Introduction by Thomas Hungerford**
+![alg](/assets/hungerford.png){: height="220px" width="150px" align="right"}
 
-This is a fairly good book on the fundamentals of abstract algebra and very basic number theory, beginning with ring theory then moving onto groups (many books introduce groups first). The pace is rather slow and comfortable, and there are a lot of examples; many of them very simple used for clarifying concepts. The book is also unique in that it gives an introduction to cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite well. Overall the book is a fairly elementary, yet solid introduction to abstract algebra.
+This is a fairly good book on the fundamentals of abstract algebra and very <br />
+basic number theory, beginning with ring theory then moving onto groups  <br />
+(many books introduce groups first). The pace is rather slow and comfortable,
+and there are a lot of examples; many of them very simple used for clarifying
+concepts. The book is also unique in that it gives an introduction to <br />
+cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite <br />  well.
+Overall the book is a fairly elementary, yet solid introduction to abstract
+algebra.
+
 
 ## Applied Math
 
 **Introduction to Theoretical Fluid Mechanics by Stephen Childress**
+![fluids](/assets/fluids.png){: height="220px" width="150px" align="right"}
 
-This book is a set of lecture notes from the Courant Institute which are quite good as
-an introduction to the fundamental theorems and concepts in fluid mechanics, but are very
-thin on details for the derivations (as are most lecture notes). I would recommend this
-as a reference to someone wanting to know the most important theorems and applications of
-ideas such as the basic conservation laws, Kelvin and Helmholtz's theorems, and some basic gas dynamics.
-Although it is not stated explicitly, I would recommend knowing some of the basics about
-PDEs before studying the later chapters on gas dynamics and sound.
+This book is a set of lecture notes from the Courant Institute which are quite
+good as an introduction to the fundamental theorems and concepts in fluid
+mechanics, but are very thin on details for the derivations (as are most
+lecture notes). I would recommend this as a reference to someone wanting
+to know the most important theorems and applications of ideas such as the
+basic conservation laws, Kelvin and Helmholtz's theorems, and some basic gas
+dynamics. Although it is not stated explicitly, I would recommend knowing some
+of the basics about PDEs before studying the later chapters on gas dynamics $$$$
+and sound.
+
+## Differential Equations/Dynamics
+
+**Dynamical Systems, Differential Equations, & Linear Algebra by Hirsch, <br /> Smale, and Devaney**
+![558](/assets/hirschsmale.png){: height="220px" width="150px" align="right"}
+
+
+
 
 ## Other
 
