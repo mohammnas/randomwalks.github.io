@@ -49,7 +49,7 @@ and there are a lot of examples; many of them very simple and <br /> used just f
 concepts. The book is also unique in that it gives an introduction to
 cryptography (RSA, Diffie-Hellman) towards the end, which also reads quite well.
 Overall the book is a fairly elementary, yet solid introduction to abstract
-algebra. For someone looking towards graduate studies in algebra however, <br />
+algebra. For someone looking towards graduate studies in algebra however,
 I would instead recommend Artin's *Algebra*.
 
 
