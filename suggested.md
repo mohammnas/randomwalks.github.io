@@ -62,9 +62,9 @@ This book is a set of lecture notes from the Courant Institute which are quite
 good as an introduction to the fundamental theorems and concepts in fluid
 mechanics, but are very thin on details for the derivations (as are most
 lecture notes). I would recommend this as a reference to someone wanting
-to know the most important theorems and applications of ideas such as the
+to know the most important ideas of fluid mechanics (such as the
 basic conservation laws, Kelvin and Helmholtz's theorems, and some basic gas
-dynamics. Although it is not stated explicitly, I would recommend knowing some
+dynamics) and their applications . Although it is not stated explicitly, I would recommend knowing some
 of the basics about PDEs before studying the later chapters on gas dynamics $$$$
 and sound.
 

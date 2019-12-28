@@ -19,7 +19,7 @@ Here is a theorem I learned in my course on real analysis which is an extraordin
 
 **Theorem (Cantor's theorem):** *Consider a set A and its power set $$\mathcal{P}(A)$$. There is no surjection $$f:A \rightarrow \mathcal{P}(A) $$.*
 
-To prove this, let us construct a set S = $$\{x \in A : x \notin f(x)\}$$ and assume that f is surjective. If this is the case, then there exists x $$\in$$ A such that f(x) = S. The main cause of confusion in understanding this proof is the failure in remembering that f(x) is a set and not a single number as usual, and that we have f(x) $$\in \mathcal{P}(A)$$.
+*Proof.* To prove this, let us construct a set S = $$\{x \in A : x \notin f(x)\}$$ and assume that f is surjective. If this is the case, then there exists x $$\in$$ A such that f(x) = S. The main cause of confusion in understanding this proof is the failure in remembering that f(x) is a set and not a single number as usual, and that we have f(x) $$\in \mathcal{P}(A)$$.
 
 If it is in fact the case that f(x) = S for any x then we would require that x $$\in f(x) \Rightarrow x \in S$$ which further implies x $$\notin$$ f(x) by the clever choice of S; a contradiction that x $\in f(x)$. Conversely, it is possible that x $$\notin$$ f(x). Then x $$\notin S$$, but by our construction of S, this means that x $$\in$$ f(x); a contradiction of x $$\notin$$ f(x). Thus, in either case, we have $$f(x) \notin S$$ and $$f(x) \in S$$, which is absurd, meaning such a function f could not exist. $\blacksquare$
 
