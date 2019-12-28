@@ -37,7 +37,11 @@ $$\int_{-1}^{1} f(x) dx \approx \sum_{i=0}^{n} w_if(x_i),\quad w_i(x) = \int_{-1
 
 $$\int_{-1}^{1} f(x) dx = \int_{-1}^{1} P_n(x)q(x)dx  + \int_{-1}^{1}r(x)dx$$
 
-Since q(x) and $P_n(x)$ are Legendre polynomials, they are orthogonal and the second integral cancels (who knew they'd come in handy?). Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
+Since q(x) and $P_n(x)$ are Legendre polynomials, they are orthogonal and the second integral cancels (who knew they'd come in handy?). Now I will introduce another set of mathematical objects known as *Lagrange polynomials*:
+
+
+
+Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
 
 Only if r is a polynomial of degree $$\leq n-1$$
 
