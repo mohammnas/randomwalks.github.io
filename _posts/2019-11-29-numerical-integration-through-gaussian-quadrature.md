@@ -103,7 +103,7 @@ integrate(f,weights,roots)
 
 ```
 
-The below code block uses exactly the same technique to integrate the polynomial $x^11 + x^10$, but since it's degree is greater than 8, we get a bad approximation.
+The below code block uses exactly the same technique to integrate the polynomial $x^{11} + x^{10}$, but since it's degree is greater than 8, we get a bad approximation.
 
 ```python
 
