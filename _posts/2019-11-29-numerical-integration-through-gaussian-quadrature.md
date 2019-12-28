@@ -15,28 +15,30 @@ MathJax.Hub.Config({
 
 **UNFINISHED**
 
-The semester is now over, leaving me plenty of time to write a post. It's been quite a while since I've seen Gaussian Quadrature, but it is an important result in numerical analysis that uses a wide array of mathematical ideas. It can also be very useful, giving us a technique to numerically polynomials *exactly* so long as they are of a certain degree. Here I will explain the proof that gives Gaussian Quadrature its power, and we will see an application with some short Python code.
+The semester is now over, leaving me plenty of time to write a post. It's been quite a while since I've seen Gaussian Quadrature, but it is an important result in numerical analysis that uses a wide array of mathematical ideas. It can also be very useful, giving us a technique to numerically integrate polynomials *exactly* so long as they are of a certain degree (precision also will depend on your computer). Here I will explain the proof that gives Gaussian Quadrature its power, and we will see an application with some short Python code.
 
 # Theoretical underpinnings
 
 First we need to introduce what Legendre polynomials are.
-Define the following inner product:
+Define the following inner product for two polynomials $P_n$ and $P_m$ of degrees $m$ and $n$:
 
 $$(P_n,P_m) = \int_{-1}^{1} P_n(x)P_m(x) dx$$
 
 If we take  $\{1,x,x^2,...,x^n\}$ as a basis for polynomials and apply Gram-Schmidt orthogonalization (which I will not do here), we obtain the first n Legendre polynomials, which form a basis for polynomials on [-1,1]. Now we prove the following theorem:
-\smallbreak
+
+
+
 **Theorem:** *Let $P_n(x)$ be the nth Legendre Polynomial and let x$_0$,x$_1$,...$x_n$ be its roots. Let f be a polynomial of degree 2n - 1. Then the approximation,*
 
 $$\int_{-1}^{1} f(x) dx \approx \sum_{i=0}^{n} w_if(x_i),\quad w_i(x) = \int_{-1}^{1}f(x)$$
 
 *is exact.*
 
-*Proof*:We first rewrite f(x) in terms of our new orthogonal basis. Dividing by the nth Legendre polynomial we see that $f(x) = q(x)P_n(x) + r(x)$ where $ deg(q),deg(r) < n$. Now, we integrate both sides of this equation to obtain:
+*Proof.* We first rewrite f(x) in terms of our new orthogonal basis. Dividing by the nth Legendre polynomial we see that $f(x) = q(x)P_n(x) + r(x)$ where $ deg(q),deg(r) < n$. Now, we integrate both sides of this equation to obtain:
 
-$$\int_{-1}^{1} f(x) dx = \int_{-1}^{1} P_n(x)q(x)dx  + \int_{-1}^{1}r(x)dx$$.
+$$\int_{-1}^{1} f(x) dx = \int_{-1}^{1} P_n(x)q(x)dx  + \int_{-1}^{1}r(x)dx$$
 
-\indent Since q(x) and $P_n(x)$ are Legendre polynomials, they are orthogonal and the second integral cancels (who knew they'd come in handy?). Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
+Since q(x) and $P_n(x)$ are Legendre polynomials, they are orthogonal and the second integral cancels (who knew they'd come in handy?). Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
 
 Only if r is a polynomial of degree $$\leq n-1$$
 
