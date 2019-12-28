@@ -88,7 +88,14 @@ A = np.array([ones,roots,roots_2,roots_3,roots_4])
 b = np.array([[2],[0],[2/3],[0],[2/5]])
 weights = linalg.solve(A,b)
 
-#the function for part c)
+#the function which applies the rule
+def integrate(function,weights,roots):
+    integral = 0
+    for i in range(5):
+        integral += weights[i] * f(roots[i])
+    print(integral)
+
+#the function to integrate
 def f(x):
     return pow(x,8)+42*pow(x,7)
 
@@ -100,17 +107,9 @@ The below code block uses exactly the same technique to integrate the polynomial
 
 ```python
 
-#the function for part d)
+#our new function
 def g(x):
     return pow(x,11)+pow(x,10)
-
-#computes the integral using gaussian quadrature
-def integrate(function,weights,roots):
-    integral = 0
-    for i in range(5):
-        integral += weights[i] * f(roots[i])
-    print(integral)
-
 
 integrate(g,weights,roots)
 
