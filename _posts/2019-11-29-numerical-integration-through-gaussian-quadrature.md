@@ -51,6 +51,7 @@ Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
 
 Only if r is a polynomial of degree $$\leq n-1$$
 
+## An application
 
 
 Here is some Python code which computes the integral $$\int_{-1}^{1} x^{8} + 42x^{7} dx$$ using
