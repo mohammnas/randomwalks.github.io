@@ -13,7 +13,7 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-**UNFINISHED TEST**
+**UNFINISHED**
 
  It's been quite a while since I've seen Gaussian Quadrature, but it is an important result in numerical analysis with a very elegant proof incorporating many mathematical ideas. It can also be very useful, giving us a technique to numerically integrate polynomials *exactly* so long as they are of a certain degree (precision also will depend on your computer). Here I will explain the proof that gives Gaussian Quadrature its power, and we will see an application with some short Python code.
 
@@ -33,7 +33,7 @@ Now I will introduce another set of mathematical objects known as *Lagrange poly
 Now we prove the following theorem:
 
 
-**Theorem:** *Let x$_0$,x$_1$,...$x_n$ be the roots of the nth Legendre polynomial and \mathcal{L}_i(x) be the ith Lagrange polynomial. Let f be a polynomial of degree 2n - 1. Then the approximation,*
+**Theorem:** *Let x$_0$,x$_1$,...$x_n$ be the roots of the nth Legendre polynomial and $\mathcal{L}_i(x)$ be the $ith$ Lagrange polynomial. Let f be a polynomial of degree 2n - 1. Then the approximation,*
 
 $$\int_{-1}^{1} f(x) dx \approx \sum_{i=0}^{n} w_if(x_i),\quad w_i(x) = \int_{-1}^{1}\mathcal{L}_i(x)f(x)$$
 
