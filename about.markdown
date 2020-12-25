@@ -10,7 +10,7 @@ I hope to write about my thoughts on mathematics-related topics from the very th
 
 In my spare time I care for my large collection of southern African succulents and play guitar.
 
-
+![lithops](/assets/lithops.jpeg)
 <div style="text-align: center"><img src="/assets/lithops.jpeg" width="450" ></div>
 
 *<center> Some assorted varieties of Lithops karasmontana from my collection in bloom/bud </center>*
