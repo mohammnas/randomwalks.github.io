@@ -13,7 +13,7 @@ In my spare time I care for my large collection of southern African succulents a
 
 
 <p align="center">
-  <img src="/assets/lithops.JPG" width="450" />
+  <img src="/assets/lithops.jpg" width="450" >
 </p>
 
 *<center> Some assorted varieties of Lithops karasmontana from my collection in bloom/bud </center>*
