@@ -11,5 +11,5 @@ This blog is mainly a tool for myself to explain (and hopefully not simply regur
 In my spare time I care for my large collection of southern African succulents and play guitar.
 
 
-![Lithops](/assets/lithops.jpeg)
+![Lithops](/assets/lithops.jpeg){: height="200px" width="200px"}
 *A few Lithops karasmontana from my collection in bloom/bud*
