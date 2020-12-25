@@ -10,8 +10,6 @@ I hope to write about my thoughts on mathematics-related topics from the very th
 
 In my spare time I care for my large collection of southern African succulents and play guitar.
 
-2
-
 <style type="text/css">
 img[src*='#center'] {
     display: block;
