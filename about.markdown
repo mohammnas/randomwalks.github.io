@@ -10,12 +10,16 @@ I hope to write about my thoughts on mathematics-related topics from the very th
 
 In my spare time I care for my large collection of southern African succulents and play guitar.
 
-1
+2
 
-<center>
+<style type="text/css">
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+</style>
 
-<img style="float: center;" src="/assets/lithops.jpg" width="450px" />
+![my image](/assets/lithops.jpg#center){: width="450px"}  
 
-</center>
 
 *<center> Some assorted varieties of Lithops karasmontana from my collection in bloom/bud </center>*
