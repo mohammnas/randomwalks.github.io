@@ -9,9 +9,13 @@ I'm Nasser Mohammed, a recent graduate of the wonderful [mathematics department]
 I hope to write about my thoughts on mathematics-related topics from the very theoretical (computability theory, topology, probability, etc.) to the very applied (information theory, ecology, quantum mechanics, etc.). Hopefully a true [random walk](https://en.wikipedia.org/wiki/Random_walk) through all things related to mathematics!
 
 In my spare time I care for my large collection of southern African succulents and play guitar.
+
+1
+
 <center>
 
 <img style="float: center;" src="/assets/lithops.jpg" width="450px" />
 
 </center>
+
 *<center> Some assorted varieties of Lithops karasmontana from my collection in bloom/bud </center>*
