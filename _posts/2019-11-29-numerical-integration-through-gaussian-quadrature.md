@@ -41,14 +41,8 @@ $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
 Note that $L(x_0) = y_0 = 4$ but $L(x_1) = y_1 = 5$. Plotting this gives:
 
-<style type="text/css">
-img[src*='#center'] {
-    display: block;
-    margin: auto;
-}
-</style>
 
-![graph](/assets/graph.png#center){: width="450px"}  
+<img src="/assets/graph.jpg" width="450">
 
 A linear function that indeed runs through the two points.
 
