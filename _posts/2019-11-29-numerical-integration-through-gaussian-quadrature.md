@@ -35,14 +35,15 @@ $$\mathcal{L}(x) = \sum_{j=0}^k y_j l_j(x)$$
 
 *The functions $l_j$ are often known as* **Lagrange basis polynomials**.
 
-This definition requires a bit of thought, but it shouldn't be too hard to see how we chose $l_j(x)$. Suppose we want an interpolating polynomial for the two points $(x_0,y_0),(x_1,y_1)=(1/2,4),(3/4,5)$. Then our Lagrange polynomial looks like:
+This definition requires a bit of thought, but it shouldn't be too hard to see how we chose $l_j$. Just notice that $l_j(x_i) = 1$ for $i=j$ and $l_j(x_i) = 0$ otherwise. This means that $L(x)$ interpolates the points exactly.
+
+As an example, suppose we want an interpolating polynomial for the two points $(x_0,y_0),(x_1,y_1)=(1/2,4),(3/4,5)$. Then our Lagrange polynomial looks like:
 
 $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
-Note that $L(x_0) = y_0 = 4$ but $L(x_1) = y_1 = 5$. Plotting this gives:
+Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
 
-
-<img src="/assets/graph.jpg" width="450" />
+![graph](/assets/graph.jpg)
 
 A linear function that indeed runs through the two points.
 
@@ -58,7 +59,7 @@ Now we remark a useful property of polynomials using the definition of the Legen
 
  For future purposes, let's define $w_i := \int_{-1}^{1} l_i(x_i) dx$.
 
- Now for the main event! We will now prove that on
+ Now for the main event! Here's the proof that Gaussian quadrature works.
 
 **Theorem:** *Let x$_0$,x$_1$,...$x_n$ be the roots of the nth Legendre polynomial and $\mathcal{L}_i(x)$ be the $ith$ Lagrange polynomial. Let f be a polynomial of degree 2n - 1. Then the approximation,*
 
