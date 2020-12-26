@@ -48,7 +48,7 @@ img[src*='#center'] {
 }
 </style>
 
-![graph](/assets/graph.jpg#center){: width="450px"}  
+![graph](/assets/graph.png#center){: width="450px"}  
 
 A linear function that indeed runs through the two points.
 
