@@ -33,7 +33,7 @@ $$\mathcal{L}(x) = \sum_{j=0}^k y_j l_j(x)$$
 
 *Where* $$l_j(x) = \prod_{m \neq j}^{k} \frac{x-x_0}{x_j - x_0} \cdots \frac{x-x_k}{x_j - x_k}$$
 
-*The functions l_j are often known as* **Lagrange basis polynomials**.
+*The functions $l_j$ are often known as* **Lagrange basis polynomials**.
 
 This definition requires a bit of thought, but it shouldn't be too hard to see how we chose $l_j(x)$. Suppose we want an interpolating polynomial for the two points $(x_0,y_0),(x_1,y_1)=(1/2,4),(3/4,5)$. Then our Lagrange polynomial looks like:
 
@@ -41,7 +41,14 @@ $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
 Note that $L(x_0) = y_0 = 4$ but $L(x_1) = y_1 = 5$. Plotting this gives:
 
-![graph](/assets/graph.png){: width="450px"}  
+<style type="text/css">
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+</style>
+
+![graph](/assets/graph.jpg#center){: width="450px"}  
 
 A linear function that indeed runs through the two points.
 
