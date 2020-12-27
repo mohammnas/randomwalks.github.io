@@ -19,7 +19,7 @@ img[src*='#center'] {
 }
 </style>
 
-![my image](/assets/lithops.jpg#center){: width="450px"}  
+![my image](/Images/lithops.jpg#center){: width="450px"}  
 
 
 *<center> Some assorted varieties of Lithops karasmontana from my collection in bloom/bud </center>*

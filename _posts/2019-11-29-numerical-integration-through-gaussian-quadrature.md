@@ -43,7 +43,8 @@ $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
 Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
 
-![image](/Images/graph.jpg)
+
+![graph](/Images/graph.png)
 
 
 A linear function that indeed runs through the two points.
@@ -57,6 +58,8 @@ Now we remark a useful property of polynomials using the definition of the Legen
  Where $l_i$ are the Lagrange basis polynomials. Integrating yields:
 
  $$\int_{-1}^{1} p(x) dx = \int_{-1}^{1} \left( \sum_{i=1}^n p(x_i) l_i(x_i) \right) dx = \sum_{i=1}^n \left( p(x_i) \int_{-1}^{1} l_i(x_i) dx \right)$$
+
+This comes from the fact that a Lagrange polynomial of degree $n-1$ interpolates $n$ points.
 
  For future purposes, let's define $w_i := \int_{-1}^{1} l_i(x_i) dx$.
 
