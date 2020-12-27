@@ -46,7 +46,16 @@ Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
 
 ![graph](./Images/graph.JPG)
 
-<img class="home__img__header" src="/Images/graph.JPG" alt="Craft Beer">
+
+<style type="text/css">
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+</style>
+
+![my image](/Images/lithops.jpg#center){: width="450px"}  
+
 
 A linear function that indeed runs through the two points.
 
