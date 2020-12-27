@@ -47,7 +47,7 @@ Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
 ![graph](https://github.com/mohammnas/randomwalks/blob/master/Images/graph.JPG)
 
 <p>
-    <img src="/Images/graph.JPG" width="220" />
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/graph.JPG" width="250" />
 </p>
 
 A linear function that indeed runs through the two points.
