@@ -22,7 +22,7 @@ title: Random Walks
 email: mohammna@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Expositions of mathematical ideas
-url: https://mohammnas.github.io/randomwalks/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://mohammnas.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mohammnas
 
 
@@ -30,7 +30,6 @@ github_username:  mohammnas
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
