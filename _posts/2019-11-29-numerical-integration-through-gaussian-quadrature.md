@@ -42,12 +42,9 @@ As an example, suppose we want an interpolating polynomial for the two points $(
 $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
 Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
-
-
-![graph](https://github.com/mohammnas/randomwalks/blob/master/Images/graph.JPG)
-
+d
 <p>
-    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/graph.JPG" width="250" />
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/graph.JPG" width="450" />
 </p>
 
 A linear function that indeed runs through the two points.
