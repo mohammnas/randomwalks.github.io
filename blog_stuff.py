@@ -1,40 +1,31 @@
 import numpy as np
 from scipy import linalg
-import matplotlib.pyplot as plt
 
-#The following computes the roots in decimal form
-d = np.sqrt(70)
-e1 = 35 + 2*d
-e2 = 35 -2*d
-f = np.sqrt(e1/63)
-g = np.sqrt(e2/63)
-gn = np.negative(g)
-fn = np.negative(f)
 
-#arrays which will be our matrix's rows
-ones = np.ones(5)
-roots = ([fn,gn,0,g,f])
-roots_2 = np.float_power(roots,2)
-roots_3 = np.float_power(roots,3)
-roots_4 = np.float_power(roots,4)
-
-#A is a matrix containing as rows the roots
-A = np.array([ones,roots,roots_2,roots_3,roots_4])
-b = np.array([[2],[0],[2/3],[0],[2/5]])
+#A is a matrix containing the linear system
+A = np.array([[1,1,1],[-np.sqrt(3/5),0,np.sqrt(3/5)],[3/5,0,3/5]])
+b = np.array([[2],[0],[2/3]])
 weights = linalg.solve(A,b)
 
+#Let's create an array containing the points x_i
+roots = np.array([-np.sqrt(3/5),0,np.sqrt(3/5)])
+
 #the function which applies the rule
-def integrate(function,weights,roots):
+def integrate(n,function,weights,roots):
     integral = 0
-    for i in range(5):
-        integral += weights[i] * f(roots[i])
+    for i in range(n):
+        integral += weights[i] * function(roots[i])
     print(integral)
 
 #the function to integrate
 def f(x):
-    return pow(x,8)+42*pow(x,7)
+    return pow(x,4)+42*pow(x,3)
 
-integrate(f,weights,roots)
+def g(x):
+    return pow(x,6)+pow(x,5)
+
+
+integrate(3,g,weights,roots)
 
 #x_0 = (1/2,4), x_1 = (3/4,5)
 
