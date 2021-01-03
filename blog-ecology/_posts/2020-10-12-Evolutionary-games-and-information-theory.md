@@ -20,6 +20,6 @@ MathJax.Hub.Config({
 
 In this post, I'd like to elucidate a particularly interesting relationship between two seemingly unrelated fields. Lately, I've become quite interested in evolutionary game theory, and ran into a really
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/EGTInfo/diagram.JPG" width="450" />
+<p align="right">
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/EGTInfo/diagram2.JPG" width="450" />
 </p>

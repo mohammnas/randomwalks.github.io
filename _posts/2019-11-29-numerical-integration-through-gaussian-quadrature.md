@@ -86,7 +86,7 @@ $$\int_{-1}^{1} r(x) dx = \sum_{i=1}^n r(x_i) w_i(x_i)$$
 
 Now we notice that: $$r(x) = \sum_{i=0}^{n} w_i\mathcal{L}(x_i)$$
 
-Only if r is a polynomial of degree $$\leq n-1$$. Now, here's a very important detail: **Suppose that we choose the interpolating points $x_i$ to be the roots of $nth$ Legendre polynomial**. Then we have $f(x_i) = q(x_i)P_n(x_i) + r(x_i) = q(x_i) \cdot 0 + r(x_i) = r(x_i)$. Thus we can effectively "convert" our integral into a discrete sum:
+Only if r is a polynomial of degree $$\leq n-1$$. Now, we use our assumption that the interpolating points $x_i$ are the roots of $nth$ Legendre polynomial. Then we have $f(x_i) = q(x_i)P_n(x_i) + r(x_i) = q(x_i) \cdot 0 + r(x_i) = r(x_i)$. Thus we can effectively "convert" our integral into a discrete sum:
 
 $$\int_{-1}^{1} f(x) dx = \int_{-1}^{1}r(x)dx = \sum_{i=1}^n r(x_i) w_i(x_i) = \sum_{i=1}^n f(x_i) w_i(x_i)$$
 
