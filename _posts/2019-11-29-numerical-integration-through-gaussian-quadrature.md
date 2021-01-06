@@ -155,14 +155,14 @@ integrate(3,f,weights,roots)
 
 Which is the correct answer.
 
-The below code chunk uses exactly the same function to integrate the polynomial $x^{5} + x^{4}$, but since it's degree is greater than 5, we get a bad approximation:
+The below code chunk uses exactly the same function to integrate the polynomial $x^{6} + x^{5}$, but since it's degree is greater than 5, we get a bad approximation:
 
 ```python
 #our new function
 def g(x):
-    return pow(x,5)+pow(x,4)
+    return pow(x,6)+pow(x,5)
 
-integrate(g,weights,roots)
+integrate(3,g,weights,roots)
 ```
 
 `Output: 0.24`
