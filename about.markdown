@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
 I'm Nasser, a recent graduate of the wonderful [mathematics department](https://lsa.umich.edu/math) at the University of Michigan. Though I did plenty of pure mathematics during my time there, these days I am mostly interested in applications of mathematics to ecology, and hope to continue my studies in this area in the future. Nevertheless, I continue to learn all sorts of mathematics whenever I get the chance, which inspired the creation of this blog.
 

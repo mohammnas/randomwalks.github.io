@@ -13,6 +13,8 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
 
  It's been quite a while since I've seen Gaussian Quadrature, but it is an important result in numerical analysis with a very elegant proof incorporating many mathematical ideas. It can also be very useful, giving us a technique to numerically integrate polynomials *exactly* so long as they are of a certain degree (precision also will depend on your computer). Here I will explain the proof that gives Gaussian Quadrature its power, and we will see an application with some short Python code.
 
@@ -171,3 +173,5 @@ integrate(3,g,weights,roots)
 Which differs from the correct answer of $\frac{2}{7}$.
 
 Anyways, I hope this post helped someone to understand Gaussian Quadrature! Note that there are many other quadrature rules to numerically integrate polynomials and other functions, such as [Newton-Cotes Quadrature](https://en.wikipedia.org/wiki/Newton%E2%80%93Cotes_formulas), [Gauss-Jacobi Quadrature](https://en.wikipedia.org/wiki/Gauss%E2%80%93Jacobi_quadrature) and more. I simply find Gaussian quadrature to have a particularly interesting proof.
+
+Until next time!
