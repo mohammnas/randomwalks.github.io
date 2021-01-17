@@ -45,7 +45,8 @@ $$L(x) = 4 \cdot \frac{x-3/4}{1/2-3/4} + 5 \cdot \frac{x-1/2}{3/4-1/2}$$
 
 Note that $L(x_0) = y_0 = 4$ and $L(x_1) = y_1 = 5$. Plotting this gives:
 
-<p>
+
+<p align="center">
     <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/graph.JPG" width="450" />
 </p>
 
