@@ -18,7 +18,7 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<link href="http://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
 In this post, I'd like to elucidate a particularly interesting relationship between two seemingly unrelated fields. This post draws a lot from a paper$^1$ by John Baez
 
@@ -30,13 +30,13 @@ $$H(X) = -\sum_{x \in X}log_{2}(x) p(x)$$
 
 For a *discrete* random variable $X$ (there's a definition for continuous distributions, but we needn't worry about that). Now, why is the logarithm base 2? Well, it actually doesn't need to be, but Claude Shannon decided that this would be the best definition for computing the entropy of a message sent using a binary alphabet (which was the [motivation](https://en.wikipedia.org/wiki/Information_theory#Entropy_of_an_information_source) behind information theory).
 
-To lend some intuition to this definition, consider the following example. Suppose we are receiving a message that is read in an alphabet of three letters ${A,B,C}$. Now suppose that the frequency that we receive the letters is distributed in two different ways, either uniformly or as $P(A)=P(C)= \frac{1}{8},P(B)= \frac{6}{8}$ (See Fig. 1):
+To lend some intuition to this definition, consider the following example. Suppose we are receiving a message that is read in an alphabet of three letters ${A,B,C}$. Now suppose that the frequency that we receive the letters is distributed in two different ways, either uniformly or as $P(A)=P(C)= \frac{1}{8},P(B)= \frac{6}{8}$ (See Figure 1):
 
 
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/EGTInfo/fig1.JPG" width="550" />
 </p>
-*<center> Fig 1: Two messages being sent using the same alphabet but with different distributions. </center>*
+*<center> Figure 1: Two messages being sent using the same alphabet but with different distributions. </center>*
 
 #### Sources
