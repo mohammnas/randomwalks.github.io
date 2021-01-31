@@ -21,9 +21,9 @@
 title: Random Walks
 email: mohammna@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A random walk through mathematics
+A mathematics blog for everyone and no one
 url: https://mohammnas.github.io # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  mohammnas
+github_username:  My Github
 
 
 # Build settings
