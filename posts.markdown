@@ -1,9 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /
-redirect_from:
-  - /about
+title: Posts
 ---
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 

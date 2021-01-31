@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
 **Contents**
-* TOC
+- TOC
 {:toc}
 
 
