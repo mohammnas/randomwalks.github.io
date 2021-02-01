@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import linalg
-
+from scipy.stats import entropy
+from math import log2
 
 #A is a matrix containing the linear system
 A = np.array([[1,1,1],[-np.sqrt(3/5),0,np.sqrt(3/5)],[3/5,0,3/5]])
@@ -42,3 +43,7 @@ plt.xlabel('x')
 plt.ylabel('L(x)')
 plt.legend()
 plt.show()
+
+entropy([1/3,1/3,1/3],[1/10,1/10,8/10],base=2)
+
+1/3*log2(8/3)+1/3*log2(8/3)+1/3*log2(8/18)
