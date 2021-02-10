@@ -44,6 +44,6 @@ plt.ylabel('L(x)')
 plt.legend()
 plt.show()
 
-entropy([1/3,1/3,1/3],[1/10,1/10,8/10],base=2)
+entropy([1/3,1/3,1/3],[1/3,1/3,1/3],base=2)
 
 1/3*log2(8/3)+1/3*log2(8/3)+1/3*log2(8/18)
