@@ -29,7 +29,7 @@ MathJax.Hub.Config({
 In this post, I'd like to elucidate a particularly interesting relationship between two seemingly unrelated fields. This post draws a lot from a paper [1] by John Baez.
 
 ## Introduction to information theory
-Lately, I've been doing some [reading](https://www.amazon.com/Evolutionary-Natural-Social-Virtual-Worlds-ebook/dp/B01GI5EUYC) on evolutionary games, while simultaneously taking a course in information theory. To my surprise, there appears to be some overlap between the two fields in the context of ecology and evolutionary biology. This post will explain a few of the most important concepts from information theory before getting into the main topic.
+Lately, I've been doing some reading [2] on evolutionary games, while simultaneously taking a course in information theory. To my surprise, there appears to be some overlap between the two fields in the context of ecology and evolutionary biology. This post will explain a few of the most important concepts from information theory before getting into the main topic.
 
 ### Shannon entropy
 
@@ -66,20 +66,25 @@ Now, let's see how this definition works by applying it to the previous example.
 
 $$D(p || q) = \frac{1}{3} \log_2(\frac{8}{3}) + \frac{1}{3} \log_2(\frac{8}{3}) + \frac{1}{3} \log_2(\frac{8}{18}) \approx 0.553$$
 
-What this is actually measuring is how "different" the two distributions are. Let's suppose we change q such that now $q(A)=q(B)=\frac{1}{10}$ and $q(C) = \frac{8}{10}$. Then
-$D(p||q) \approx 0.737$, which makes sense, since the distribution has become more "different" (see Figure 2).
+What this is actually measuring is how different the two distributions are. Let's suppose we change q such that now $q(A)=q(B)=\frac{1}{10}$ and $q(C) = \frac{8}{10}$. Then
+$D(p||q) \approx 0.737$, which makes sense, since the distribution has become "more different" (see Figure 2).
 
 
 Note that $D(p \vert \vert q) \neq D(q \vert \vert p)$, which means that the relative entropy operator is not a metric.
 
+Also note that relative entropy is sometimes known as the [Kullback-Liebler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).
 
 
-
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/EGTInfo/fig2.JPG" width="550" />
+</p>
+*<center> Figure 2: The relative entropy measures how different or similar two distributions are. </center>*
 
 
 
 
 
 ## Sources
-
 [1] Baez, John C., and Blake S. Pollard. "Relative entropy in biological systems." Entropy 18.2 (2016): 46.
+
+[2] Friedman, Daniel, and Barry Sinervo. Evolutionary games in natural, social, and virtual worlds. Oxford University Press, 2016.
