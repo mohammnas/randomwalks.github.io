@@ -7,6 +7,16 @@ redirect_from:
 ---
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZSCV3DM1T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZSCV3DM1T');
+</script>
+
 ![about](/Images/about.JPG){: width="250px" align="right"}
 
 I'm Nasser, a recent graduate of the wonderful [mathematics department](https://lsa.umich.edu/math) at  the University of Michigan. Though I did plenty of pure mathematics during my time there, these days I am mostly interested in  applications of mathematics to ecology, and hope to continue my studies in this area in the future. Nevertheless, I continue to learn all sorts of mathematics whenever I get the chance, which inspired the creation of this blog.
