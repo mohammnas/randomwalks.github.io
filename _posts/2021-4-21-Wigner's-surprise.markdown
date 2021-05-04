@@ -76,11 +76,11 @@ You can clearly see that the distance between the eigenvalues is distributed exa
 
 $$$$
 <div>
-    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Code.JPG" width="1000" align="right"/>
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Code.JPG" width="1000" align="left"/>
 </div>
 
 <div>
-    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Hist.JPG" width="350" align="right"/>
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Hist.JPG" width="350" />
 </div>
 
 
