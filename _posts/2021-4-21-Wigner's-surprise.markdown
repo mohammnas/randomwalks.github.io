@@ -73,10 +73,12 @@ Here's a little simulation in Mathematica that plots the distribution of distanc
 You can clearly see that the distance between the eigenvalues is distributed exactly as Wigner "surmised".
 
 $$$$
+![hist](/Images/Hist.JPG){: width="300px"}
 
 ![code](/Images/Code.JPG){: width="1000px" align="left"}
 
-![hist](/Images/Hist.JPG){: width="300px"}
+
+![about](/Images/about.JPG){: width="250px" align="right"}
 
 ## Living in Wigner's world
 
