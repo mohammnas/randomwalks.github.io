@@ -21,12 +21,13 @@
 title: Random Walks
 email: mohammna@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog for everyone and no one
+  A blog for all and none
 url: https://mohammnas.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Github
 
 
 # Build settings
+highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
