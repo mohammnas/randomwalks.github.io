@@ -60,7 +60,7 @@ For the rest of the derivation, I'd rather not regurgitate the contents of chapt
 
 $$p(s) = \frac{s}{2} e^{\frac{-s^2}{4}}$$
 
-But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density so that $\mathbb{E}[p(s)] = \int_{-\infty}^{\infty}s \cdot p(s) ds = 1$. To this end, we will try to compute $\bar{p}(s)$
+But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density so that $\mathbb{E}[p(s)] = \int_{-\infty}^{\infty}s \cdot p(s) ds = 1$. To this end, we will try to compute $\bar{p}(s)$ =
 
 ## A simulation in Mathematica
 Here's a little simulation in Mathematica that plots the distribution of distances between the matrices we considered. It does the following:
@@ -75,7 +75,7 @@ You can clearly see that the distance between the eigenvalues is distributed exa
 $$$$
 
 ![code](/Images/Wigner/Code.JPG){: width="1000px" align="left"}
- $$x^2$$
+
 ![hist](/Images/Wigner/Hist.JPG){: width="300px"}
 
 ## Living in Wigner's world
