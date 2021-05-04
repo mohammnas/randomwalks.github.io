@@ -19,7 +19,9 @@ MathJax.Hub.Config({
 
 
 
-![birds](/Images/birds.JPG){: width="400px" align="right"}
+<div>
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/birds.JPG" width="400" align="right"/>
+</div>
 
 **Contents**
 - TOC
@@ -73,12 +75,14 @@ Here's a little simulation in Mathematica that plots the distribution of distanc
 You can clearly see that the distance between the eigenvalues is distributed exactly as Wigner "surmised".
 
 $$$$
-![hist](/Images/Hist.JPG){: width="300px"}
+<div>
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Code.JPG" width="1000" align="right"/>
+</div>
 
-![code](/Images/Code.JPG){: width="1000px" align="left"}
+<div>
+    <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Hist.JPG" width="350" align="right"/>
+</div>
 
-
-![about](/Images/about.JPG){: width="250px" align="right"}
 
 ## Living in Wigner's world
 
