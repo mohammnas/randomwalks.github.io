@@ -19,7 +19,7 @@ MathJax.Hub.Config({
 
 
 
-![birds](/Images/Wigner/birds.JPG){: width="400px" align="right"}
+![birds](/Images/birds.JPG){: width="400px" align="right"}
 
 **Contents**
 - TOC
@@ -74,9 +74,9 @@ You can clearly see that the distance between the eigenvalues is distributed exa
 
 $$$$
 
-![code](/Images/Wigner/Code.JPG){: width="1000px" align="left"}
+![code](/Images/Code.JPG){: width="1000px" align="left"}
 
-![hist](/Images/Wigner/Hist.JPG){: width="300px"}
+![hist](/Images/Hist.JPG){: width="300px"}
 
 ## Living in Wigner's world
 
