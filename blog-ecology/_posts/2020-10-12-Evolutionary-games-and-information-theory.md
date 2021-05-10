@@ -33,11 +33,11 @@ Lately, I've been doing some reading [2] on evolutionary games, while simultaneo
 
 ### Shannon entropy
 
-Information theory is all about how certainty can facilitate the acquisition of information. Perhaps the most important idea in information theory is the idea of *entropy*, which was ingeniously defined by Claude Shannon in the 1940's for a probability mass function $p(x)$ on a probability space $X$ as:
+Information theory is all about how certainty can facilitate the acquisition of information. Perhaps the most important idea in information theory is the idea of *entropy*, which was ingeniously defined by Claude Shannon in the 1940's for a probability mass function $p(x)$ on a sample space $X$ as:
 
 $$H(X) = -\sum_{x \in X}log_{2}(x) p(x)$$
 
-There's also a definition for continuous distributions, but we needn't worry about that. Now, why is the logarithm base 2? Well, it actually doesn't need to be, but Claude Shannon decided that this would be the best definition for computing the entropy of a message sent using a binary alphabet (which was the [motivation](https://en.wikipedia.org/wiki/Information_theory#Entropy_of_an_information_source) behind information theory). We measure entropy in units of bits under the $\log_2$ definition.
+There's also a definition for continuous distributions, but we needn't worry about that. Now, why is the logarithm base 2? Well, it actually doesn't need to be, but Claude Shannon decided that this would be the best definition for computing the entropy of a message sent using a binary alphabet (which was the [motivation](https://en.wikipedia.org/wiki/Information_theory#Entropy_of_an_information_source) behind information theory). We measure entropy in units of 'bits' under the $\log_2$ definition.
 
 To really appreciate the beauty of this definition, consider the following example. Suppose we are receiving a message that is read in an alphabet of three letters ${A,B,C}$. Now suppose that for sending messages translated from two different spoken languages, the frequency that we receive the letters follow either of two distributions, $p$ or $q$. Define $p$ uniformly such that $p(x)=\frac{1}{3}$ for all $x$, and $q(x)$ such that $q(A) = q(C) = 1/8$ and $q(B)= \frac{6}{8}$ (See Figure 1):
 

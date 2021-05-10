@@ -84,7 +84,6 @@ $$$$
 </div>
 
 
-## Living in Wigner's world
 
 ## Sources
 [1] May, R. Will a Large Complex System be Stable?. Nature 238, 413–414 (1972). https://doi.org/10.1038/238413a0
