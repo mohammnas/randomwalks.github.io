@@ -58,17 +58,17 @@ $$p(s) = \int_{-\infty}^{\infty} \frac{e^{-\frac{1}{2}x_1^2}}{\sqrt{2 \pi}} \fra
 
 Where $\delta$ is the Dirac delta function. Recall that this function is just extremely peaked at $x=0$ and zero elsewhere, but it also satisfies $\int_{-\infty}^{\infty} \delta(x) dx = 1$, so it really behaves like a distribution (which is great for our purposes!).
 
-For the rest of the derivation, I'd rather not regurgitate the contents of chapter 2 from [3] (which is freely available online). You simply change variables (along with computing the Jacobian and using $sin^2(x)+cos^2(x)=1$) and obtain the following value for $p(s)$:
+For the rest of the derivation, I'd rather not regurgitate the calculation from chapter 2 of [3] (which is freely available online). You simply switch to polar coordinates (along with computing the Jacobian and using $sin^2(x)+cos^2(x)=1$) and obtain the following value for $p(s)$:
 
 $$p(s) = \frac{s}{2} e^{\frac{-s^2}{4}}$$
 
-But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density so that $\mathbb{E}[p(s)] = \int_{-\infty}^{\infty}s \cdot p(s) ds = 1$. To this end, we will try to compute $\bar{p}(s)$ =
+But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density to a new PDF $\bar{p}(s)$ such that $\mathbb{E}[\bar{p}(s)] = \int_{-\infty}^{\infty}s \cdot \bar{p}(s) ds = 1$. To this end, we will define the PDF as $\bar{p}(s) = \langle s \rangle p(\langle s \rangle s)$, where $\langle s \rangle = \int_{0}^{\infty} p(s) ds$, which is the mean spacing (note that bounds are positive since we defined the spacings as positive).
 
 ## A simulation in Mathematica
 Here's a little simulation in Mathematica that plots the distribution of distances between the matrices we considered. It does the following:
 
-1) Samples 10,000 matrices from the GOE \\
-2) Symmetrizes them and finds their eigenvalues \\
+1) Samples 10,000 matrices with Gaussian entries as specified before \\
+2) Symmetrizes them (so they are from the GOE) and finds their eigenvalues \\
 3) Finds the pairwise differences between the eigenvalues and normalizes the result \\
 4) Plots the histogram against the pdf for Wigner's surmise
 
