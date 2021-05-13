@@ -107,7 +107,7 @@ So what is this equation telling us? Something quite extraordinary, actually. It
 
 Until next time, I hope this post helped somebody learn something!
 
-
+--Nasser
 
 ## Sources
 [1] Baez, John C., and Blake S. Pollard. "Relative entropy in biological systems." Entropy 18.2 (2016): 46.

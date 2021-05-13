@@ -62,7 +62,13 @@ For the rest of the derivation, I'd rather not regurgitate the calculation from 
 
 $$p(s) = \frac{s}{2} e^{\frac{-s^2}{4}}$$
 
-But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density to a new PDF $\bar{p}(s)$ such that $\mathbb{E}[\bar{p}(s)] = \int_{-\infty}^{\infty}s \cdot \bar{p}(s) ds = 1$. To this end, we will define the PDF as $\bar{p}(s) = \langle s \rangle p(\langle s \rangle s)$, where $\langle s \rangle = \int_{0}^{\infty} p(s) ds$, which is the mean spacing (note that bounds are positive since we defined the spacings as positive).
+But this is not what Wigner guessed in his moment of glory. Rather, we would like to rescale this density to a new PDF $\bar{p}(s)$ such that $\mathbb{E}[\bar{p}(s)] = \int_{-\infty}^{\infty}s \cdot \bar{p}(s) ds = 1$. To this end, we will define the PDF as $\bar{p}(s) = \langle s \rangle p(\langle s \rangle s)$, where $\langle s \rangle = \int_{0}^{\infty} s p(s) ds$, which is the mean spacing (note that bounds are positive since we defined the spacings to be positive). Thus we can compute $\bar{p}(s)$ by simply computing $\langle s \rangle$. Letting $u=\frac{s}{2}$ and integrating by parts:
+
+$$\langle s \rangle = \int_{0}^{\infty} \frac{s^2}{2} e^{\frac{-s^2}{4}} ds = \int_{0}^{\infty} 4u^2 e^{-u^2} du = 4 \left( -\frac{1}{2} u e^{-u^2} + \int_0^{\infty} \frac{1}{2} e^{-u^2} du \right) = \left( s e^{-\frac{s^2}{4}}  + \sqrt{\pi} erf(\frac{s}{2}) \right) \Big|_0^\infty = \sqrt{\pi}$$
+
+Thus we can conclude that $\bar{p}(s) = \frac{\pi s}{2} e^{\frac{- \pi s^2}{4}}$. This little equation is known as [Wigner's surmise](https://en.wikipedia.org/wiki/Wigner_surmise), named after the way Wigner famously guessed it in front of a crowd.
+
+Now, how does this PDF display the "repulsion" that Wigner desired? Hopefully it becomes clear after a simulation below.
 
 ## A simulation in Mathematica
 Here's a little simulation in Mathematica that plots the distribution of distances between the matrices we considered. It does the following:
@@ -74,7 +80,6 @@ Here's a little simulation in Mathematica that plots the distribution of distanc
 
 You can clearly see that the distance between the eigenvalues is distributed exactly as Wigner "surmised".
 
-$$$$
 <div>
     <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Code.JPG" width="1000" align="left"/>
 </div>
@@ -83,7 +88,11 @@ $$$$
     <img src="https://raw.githubusercontent.com/mohammnas/randomwalks/master/Images/Wigner/Hist.JPG" width="350" />
 </div>
 
+Interestingly, there seems to be a very low probability of two eigenvalues being close to each other, almost as if they are feeling the other's presence! The shape of this distribution was enough for Wigner to decide that the energy levels of neutrons were repelled in the same way. Neat!
 
+I hope somebody learned something from this post. Next time, I hope to write about phase transitions in ecological systems. Until then!
+
+--Nasser
 
 ## Sources
 [1] May, R. Will a Large Complex System be Stable?. Nature 238, 413–414 (1972). https://doi.org/10.1038/238413a0
